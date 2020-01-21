@@ -14,8 +14,12 @@
 # the director and film title, e.g. in 2019_LTUE_FF_entries.csv, etc. -- but
 # to also exclude entries that were disqualified (as that will exclude
 # entries that were already disqualified via this very process, so that you
-# don't have to duplicate work).
-# - run this script in the directory with the .csv files. It will write
+# don't have to duplicate work). Also, be sure that the only .csv files
+# in the directory from which you run this script are those massaged ones
+# (you can do that by e.g. opening the .csv files in LibreOffice calc
+# or Microsoft Excel, then saving as .ods or .xlsx, then massage the data and
+# save it again as a .csv over the original .csv).
+# - run this script in the directory with the massaged .csv files. It will write
 # any discovered duplicate entries to duplicate_entries.txt
 # - search for discovered duplicates in all seasons at
 # https://filmfreeway.com/submissions?season=all (after logging into the
